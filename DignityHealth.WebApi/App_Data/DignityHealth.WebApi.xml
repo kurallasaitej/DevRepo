@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DentalWarranty.WebApi</name>
+    </assembly>
+    <members>
+
+        <member name="T:DentalWarranty.WebApi.Controllers.DentistController">
+            <summary>
+            Manages all dentist related operations.
+            </summary>
+        </member>
+        <member name="M:DentalWarranty.WebApi.Controllers.DentistController.#ctor(DentalWarranty.WebApi.Infrastructure.ModelManagers.Interfaces.IDentistManager)">
+            <summary>
+            Constructor for DentistController.
+            </summary>
+            <param name="dentistManager">DentistManager object</param>
+        </member>
+        <member name="M:DentalWarranty.WebApi.Controllers.DWPatientController.CreateDentist">
+            <summary>
+            Create Dentist
+            </summary>
+          <param name="dentistVm">DentistViewModel object</param>
+            <returns>Dentist object</returns>
+        </member>
+      <member name="M:DentalWarranty.WebApi.Controllers.DWPatientController.UpdateDentist">
+        <summary>
+          Update Dentist
+        </summary>
+        <param name="dentistVm">DentistViewModel object</param>
+        <returns></returns>
+      </member>
+      <member name="M:DentalWarranty.WebApi.Controllers.DWPatientController.DeleteDentist">
+        <summary>
+          Delete Dentist
+        </summary>
+        <param name="dentistId">Id of the dentist to be deleted</param>
+        <returns></returns>
+      </member>
+      <member name="M:DentalWarranty.WebApi.Controllers.DWPatientController.GetDentist">
+        <summary>
+          Get Dentist
+        </summary>
+        <param name="dentistId">Id of the dentist</param>
+        <returns>Dentist record</returns>
+      </member>
+      <member name="M:DentalWarranty.WebApi.Controllers.DWPatientController.GetAll">
+        <summary>
+          Get all dentists
+        </summary>
+        <returns>Collection of all dentists</returns>
+      </member>
+         </members>
+</doc>

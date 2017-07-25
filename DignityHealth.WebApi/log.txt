@@ -1,0 +1,108 @@
+2015-02-23 20:27:03,351 [27] DEBUG Enterprise.Logging.Logger [(null)] <(null)> - Message :Entered with Request: /DWpatient || Method : GET ||  Request Body: result || Token : 
+2015-02-23 20:27:03,465 [27] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - NHibernate 4.0.0.GA (assembly 4.0.0.4000)
+2015-02-23 20:27:03,466 [27] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - hibernate-configuration section not found in application configuration file
+2015-02-23 20:27:03,467 [27] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - Bytecode provider name : lcg
+2015-02-23 20:27:03,468 [27] INFO  NHibernate.Cfg.Environment [(null)] <(null)> - Using reflection optimizer
+2015-02-23 20:27:03,567 [27] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MsSql2012Dialect
+2015-02-23 20:27:03,598 [27] INFO  NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapping class: DentalWarranty.Domain.DWPatient -> dbo.Customers
+2015-02-23 20:27:03,612 [27] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapped property: CustomerID -> CustomerID, type: Int32
+2015-02-23 20:27:03,627 [27] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapped property: Name -> Name, type: String
+2015-02-23 20:27:03,628 [27] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapped property: StreetAddress -> StreetAddress, type: String
+2015-02-23 20:27:03,629 [27] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapped property: City -> City, type: String
+2015-02-23 20:27:03,629 [27] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapped property: State -> State, type: String
+2015-02-23 20:27:03,630 [27] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder [(null)] <(null)> - Mapped property: Zip -> Zip, type: String
+2015-02-23 20:27:03,636 [27] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MsSql2012Dialect
+2015-02-23 20:27:03,637 [27] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MsSql2012Dialect
+2015-02-23 20:27:03,639 [27] INFO  NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Configuring ConnectionProvider
+2015-02-23 20:27:03,641 [27] INFO  NHibernate.Driver.DriverBase [(null)] <(null)> - setting ADO.NET command timeout to 10 seconds
+2015-02-23 20:27:03,641 [27] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] <(null)> - Obtaining IDbConnection from Driver
+2015-02-23 20:27:03,694 [27] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Closing connection
+2015-02-23 20:27:03,700 [27] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - checking mappings queue
+2015-02-23 20:27:03,700 [27] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-many association mappings
+2015-02-23 20:27:03,700 [27] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing one-to-one association property references
+2015-02-23 20:27:03,701 [27] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing foreign key constraints
+2015-02-23 20:27:03,702 [27] INFO  NHibernate.Cfg.Configuration [(null)] <(null)> - processing filters (second pass)
+2015-02-23 20:27:03,713 [27] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MsSql2012Dialect
+2015-02-23 20:27:03,716 [27] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MsSql2012Dialect
+2015-02-23 20:27:03,750 [27] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory [(null)] <(null)> - Using dialect defined converter
+2015-02-23 20:27:03,751 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Generate SQL with comments: enabled
+2015-02-23 20:27:03,752 [27] INFO  NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Configuring ConnectionProvider
+2015-02-23 20:27:03,752 [27] INFO  NHibernate.Driver.DriverBase [(null)] <(null)> - setting ADO.NET command timeout to 10 seconds
+2015-02-23 20:27:03,753 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2015-02-23 20:27:03,754 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Optimize cache for minimal puts: False
+2015-02-23 20:27:03,754 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Connection release mode: auto
+2015-02-23 20:27:03,755 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Default batch fetch size: 1
+2015-02-23 20:27:03,755 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - echoing all SQL to stdout
+2015-02-23 20:27:03,755 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Statistics: disabled
+2015-02-23 20:27:03,756 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Deleted entity synthetic identifier rollback: disabled
+2015-02-23 20:27:03,756 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2015-02-23 20:27:03,758 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Query language substitutions: {'true'='1', 'false'='0', 'yes'=''Y'', 'no'=''N''}
+2015-02-23 20:27:03,759 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2015-02-23 20:27:03,760 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Order SQL inserts for batching: enabled
+2015-02-23 20:27:03,760 [27] DEBUG NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Wrap result sets: disabled
+2015-02-23 20:27:03,761 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2015-02-23 20:27:03,761 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Using Isolation Level: ReadCommitted
+2015-02-23 20:27:03,762 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Default entity-mode: Poco
+2015-02-23 20:27:03,762 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Named query checking : enabled
+2015-02-23 20:27:03,763 [27] INFO  NHibernate.Cfg.SettingsFactory [(null)] <(null)> - Ignoring exceptions in BeforeTransactionCompletion : disabled
+2015-02-23 20:27:03,774 [27] INFO  NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - building session factory
+2015-02-23 20:27:03,775 [27] DEBUG NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - Session factory constructed with filter configurations : {}
+2015-02-23 20:27:03,775 [27] DEBUG NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - instantiating session factory with properties: {'use_reflection_optimizer'='True', 'dialect'='NHibernate.Dialect.MsSql2012Dialect, NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4', 'connection.driver_class'='NHibernate.Driver.Sql2008ClientDriver, NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4', 'hbm2ddl.keywords'='auto-quote', 'connection.isolation'='ReadCommitted', 'connection.connection_string'='Data Source=(local)\SQLExpress;Initial Catalog=NHibernateSimpleDemo;Integrated Security=True;Pooling=False', 'command_timeout'='10', 'show_sql'='true', 'use_sql_comments'='true'}
+2015-02-23 20:27:03,776 [27] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] <(null)> - Obtaining IDbConnection from Driver
+2015-02-23 20:27:03,780 [27] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Closing connection
+2015-02-23 20:27:03,780 [27] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MsSql2012Dialect
+2015-02-23 20:27:03,781 [27] INFO  NHibernate.Dialect.Dialect [(null)] <(null)> - Using dialect: NHibernate.Dialect.MsSql2012Dialect
+2015-02-23 20:27:03,781 [27] INFO  NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Configuring ConnectionProvider
+2015-02-23 20:27:03,781 [27] INFO  NHibernate.Driver.DriverBase [(null)] <(null)> - setting ADO.NET command timeout to 10 seconds
+2015-02-23 20:27:03,781 [27] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] <(null)> - Obtaining IDbConnection from Driver
+2015-02-23 20:27:03,784 [27] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Closing connection
+2015-02-23 20:27:03,856 [27] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer [(null)] <(null)> - No custom accessors found for entity: DentalWarranty.Domain.DWPatient
+2015-02-23 20:27:03,860 [27] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer [(null)] <(null)> - No custom accessors found for entity: DentalWarranty.Domain.DWPatient
+2015-02-23 20:27:03,871 [27] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer [(null)] <(null)> - Create Instantiator using optimizer for:DentalWarranty.Domain.DWPatient
+2015-02-23 20:27:03,924 [27] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> - Static SQL for entity: DentalWarranty.Domain.DWPatient
+2015-02-23 20:27:03,924 [27] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> -  Version select: /* get version DentalWarranty.Domain.DWPatient */ SELECT CustomerID FROM dbo.Customers WHERE CustomerID = ?
+2015-02-23 20:27:03,926 [27] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> -  Snapshot select: /* get current state DentalWarranty.Domain.DWPatient */ SELECT dwpatient_.CustomerID, dwpatient_.Name as Name0_, dwpatient_.StreetAddress as StreetAd3_0_, dwpatient_.City as City0_, dwpatient_.[State] as State5_0_, dwpatient_.Zip as Zip0_ FROM dbo.Customers dwpatient_ WHERE dwpatient_.CustomerID=?
+2015-02-23 20:27:03,927 [27] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> -  Insert 0: /* insert DentalWarranty.Domain.DWPatient */ INSERT INTO dbo.Customers (Name, StreetAddress, City, [State], Zip, CustomerID) VALUES (?, ?, ?, ?, ?, ?)
+2015-02-23 20:27:03,928 [27] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> -  Update 0: /* update DentalWarranty.Domain.DWPatient */ UPDATE dbo.Customers SET Name = ?, StreetAddress = ?, City = ?, [State] = ?, Zip = ? WHERE CustomerID = ?
+2015-02-23 20:27:03,928 [27] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> -  Delete 0: /* delete DentalWarranty.Domain.DWPatient */ DELETE FROM dbo.Customers WHERE CustomerID = ?
+2015-02-23 20:27:03,928 [27] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> -  Identity insert: /* insert DentalWarranty.Domain.DWPatient */ INSERT INTO dbo.Customers (Name, StreetAddress, City, [State], Zip) VALUES (?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2015-02-23 20:27:03,955 [27] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader [(null)] <(null)> - Static select for entity DentalWarranty.Domain.DWPatient: /* load DentalWarranty.Domain.DWPatient */ SELECT dwpatient0_.CustomerID as CustomerID0_0_, dwpatient0_.Name as Name0_0_, dwpatient0_.StreetAddress as StreetAd3_0_0_, dwpatient0_.City as City0_0_, dwpatient0_.[State] as State5_0_0_, dwpatient0_.Zip as Zip0_0_ FROM dbo.Customers dwpatient0_ WHERE dwpatient0_.CustomerID=?
+2015-02-23 20:27:03,956 [27] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader [(null)] <(null)> - Static select for entity DentalWarranty.Domain.DWPatient: /* load DentalWarranty.Domain.DWPatient */ SELECT dwpatient0_.CustomerID as CustomerID0_0_, dwpatient0_.Name as Name0_0_, dwpatient0_.StreetAddress as StreetAd3_0_0_, dwpatient0_.City as City0_0_, dwpatient0_.[State] as State5_0_0_, dwpatient0_.Zip as Zip0_0_ FROM dbo.Customers dwpatient0_ WHERE dwpatient0_.CustomerID=?
+2015-02-23 20:27:03,957 [27] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader [(null)] <(null)> - Static select for entity DentalWarranty.Domain.DWPatient: /* load DentalWarranty.Domain.DWPatient */ SELECT dwpatient0_.CustomerID as CustomerID0_0_, dwpatient0_.Name as Name0_0_, dwpatient0_.StreetAddress as StreetAd3_0_0_, dwpatient0_.City as City0_0_, dwpatient0_.[State] as State5_0_0_, dwpatient0_.Zip as Zip0_0_ FROM dbo.Customers dwpatient0_ with (updlock, rowlock) WHERE dwpatient0_.CustomerID=?
+2015-02-23 20:27:03,957 [27] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader [(null)] <(null)> - Static select for entity DentalWarranty.Domain.DWPatient: /* load DentalWarranty.Domain.DWPatient */ SELECT dwpatient0_.CustomerID as CustomerID0_0_, dwpatient0_.Name as Name0_0_, dwpatient0_.StreetAddress as StreetAd3_0_0_, dwpatient0_.City as City0_0_, dwpatient0_.[State] as State5_0_0_, dwpatient0_.Zip as Zip0_0_ FROM dbo.Customers dwpatient0_ with (updlock, rowlock, nowait) WHERE dwpatient0_.CustomerID=?
+2015-02-23 20:27:03,957 [27] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader [(null)] <(null)> - Static select for entity DentalWarranty.Domain.DWPatient: /* load DentalWarranty.Domain.DWPatient */ SELECT dwpatient0_.CustomerID as CustomerID0_0_, dwpatient0_.Name as Name0_0_, dwpatient0_.StreetAddress as StreetAd3_0_0_, dwpatient0_.City as City0_0_, dwpatient0_.[State] as State5_0_0_, dwpatient0_.Zip as Zip0_0_ FROM dbo.Customers dwpatient0_ with (updlock, rowlock) WHERE dwpatient0_.CustomerID=?
+2015-02-23 20:27:03,959 [27] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader [(null)] <(null)> - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity DentalWarranty.Domain.DWPatient: /* load DentalWarranty.Domain.DWPatient */ SELECT dwpatient0_.CustomerID as CustomerID0_0_, dwpatient0_.Name as Name0_0_, dwpatient0_.StreetAddress as StreetAd3_0_0_, dwpatient0_.City as City0_0_, dwpatient0_.[State] as State5_0_0_, dwpatient0_.Zip as Zip0_0_ FROM dbo.Customers dwpatient0_ WHERE dwpatient0_.CustomerID=?
+2015-02-23 20:27:03,960 [27] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader [(null)] <(null)> - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity DentalWarranty.Domain.DWPatient: /* load DentalWarranty.Domain.DWPatient */ SELECT dwpatient0_.CustomerID as CustomerID0_0_, dwpatient0_.Name as Name0_0_, dwpatient0_.StreetAddress as StreetAd3_0_0_, dwpatient0_.City as City0_0_, dwpatient0_.[State] as State5_0_0_, dwpatient0_.Zip as Zip0_0_ FROM dbo.Customers dwpatient0_ WHERE dwpatient0_.CustomerID=?
+2015-02-23 20:27:03,961 [27] DEBUG NHibernate.Impl.SessionFactoryObjectFactory [(null)] <(null)> - initializing class SessionFactoryObjectFactory
+2015-02-23 20:27:03,962 [27] DEBUG NHibernate.Impl.SessionFactoryObjectFactory [(null)] <(null)> - registered: cd13935551644ac2abd05dbbf996ec64(unnamed)
+2015-02-23 20:27:03,962 [27] INFO  NHibernate.Impl.SessionFactoryObjectFactory [(null)] <(null)> - no name configured
+2015-02-23 20:27:03,962 [27] DEBUG NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - Instantiated session factory
+2015-02-23 20:27:03,964 [27] DEBUG NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - Checking 0 named HQL queries
+2015-02-23 20:27:03,965 [27] DEBUG NHibernate.Impl.SessionFactoryImpl [(null)] <(null)> - Checking 0 named SQL queries
+2015-02-23 20:27:03,975 [27] DEBUG NHibernate.Impl.SessionImpl [(null)] <(null)> - [session-id=a3feae6f-8d47-482f-9fd2-ce1058a28cc4] opened session at timestamp: 635603200239, for session factory: [/cd13935551644ac2abd05dbbf996ec64]
+2015-02-23 20:27:04,221 [27] DEBUG NHibernate.Event.Default.DefaultSaveOrUpdateEventListener [(null)] <(null)> - saving transient instance
+2015-02-23 20:27:04,224 [27] DEBUG NHibernate.Event.Default.AbstractSaveEventListener [(null)] <(null)> - saving [DentalWarranty.Domain.DWPatient#<null>]
+2015-02-23 20:27:04,229 [27] DEBUG NHibernate.Event.Default.AbstractSaveEventListener [(null)] <(null)> - executing insertions
+2015-02-23 20:27:04,234 [27] DEBUG NHibernate.Event.Default.AbstractSaveEventListener [(null)] <(null)> - executing identity-insert immediately
+2015-02-23 20:27:04,236 [27] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> - Inserting entity: DentalWarranty.Domain.DWPatient (native id)
+2015-02-23 20:27:04,242 [27] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Opened new IDbCommand, open IDbCommands: 1
+2015-02-23 20:27:04,243 [27] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Building an IDbCommand object for the SqlString: /* insert DentalWarranty.Domain.DWPatient */ INSERT INTO dbo.Customers (Name, StreetAddress, City, [State], Zip) VALUES (?, ?, ?, ?, ?); select SCOPE_IDENTITY()
+2015-02-23 20:27:04,244 [27] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister [(null)] <(null)> - Dehydrating entity: [DentalWarranty.Domain.DWPatient#<null>]
+2015-02-23 20:27:04,245 [27] DEBUG NHibernate.Type.StringType [(null)] <(null)> - binding 'sriram' to parameter: 0
+2015-02-23 20:27:04,245 [27] DEBUG NHibernate.Type.StringType [(null)] <(null)> - binding 'Ram temple' to parameter: 1
+2015-02-23 20:27:04,246 [27] DEBUG NHibernate.Type.StringType [(null)] <(null)> - binding 'Ayodhya' to parameter: 2
+2015-02-23 20:27:04,246 [27] DEBUG NHibernate.Type.StringType [(null)] <(null)> - binding 'MP' to parameter: 3
+2015-02-23 20:27:04,246 [27] DEBUG NHibernate.Type.StringType [(null)] <(null)> - binding '51172' to parameter: 4
+2015-02-23 20:27:04,251 [27] DEBUG NHibernate.SQL [(null)] <(null)> - /* insert DentalWarranty.Domain.DWPatient */ INSERT INTO dbo.Customers (Name, StreetAddress, City, [State], Zip) VALUES (@p0, @p1, @p2, @p3, @p4); select SCOPE_IDENTITY();@p0 = 'sriram' [Type: String (4000)], @p1 = 'Ram temple' [Type: String (4000)], @p2 = 'Ayodhya' [Type: String (4000)], @p3 = 'MP' [Type: String (4000)], @p4 = '51172' [Type: String (4000)]
+2015-02-23 20:27:04,251 [27] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] <(null)> - Obtaining IDbConnection from Driver
+2015-02-23 20:27:04,258 [27] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - ExecuteReader took 0 ms
+2015-02-23 20:27:04,259 [27] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Opened IDataReader, open IDataReaders: 1
+2015-02-23 20:27:04,261 [27] DEBUG NHibernate.Type.Int32Type [(null)] <(null)> - returning '121' as column: 
+2015-02-23 20:27:04,261 [27] DEBUG NHibernate.Id.IdentifierGeneratorFactory [(null)] <(null)> - Natively generated identity: 121
+2015-02-23 20:27:04,262 [27] DEBUG NHibernate.Driver.NHybridDataReader [(null)] <(null)> - running NHybridDataReader.Dispose()
+2015-02-23 20:27:04,262 [27] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Closed IDataReader, open IDataReaders :0
+2015-02-23 20:27:04,263 [27] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - DataReader was closed after 5 ms
+2015-02-23 20:27:04,264 [27] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] <(null)> - Closed IDbCommand, open IDbCommands: 0
+2015-02-23 20:27:04,265 [27] DEBUG NHibernate.AdoNet.ConnectionManager [(null)] <(null)> - aggressively releasing database connection
+2015-02-23 20:27:04,265 [27] DEBUG NHibernate.Connection.ConnectionProvider [(null)] <(null)> - Closing connection
+2015-02-23 20:27:05,714 [27] DEBUG Enterprise.Logging.Logger [(null)] <(null)> - Message :Exited from Request: /DWpatient || Method : GET ||  Response Body: {"Status":200,"Code":2000,"Message":"Success"} || Token : 

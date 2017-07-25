@@ -1,0 +1,145 @@
+﻿************************************************************************************************
+This file is used to track any schema changes happened to previously developed services.
+*************************************************************************************************
+
+Sprint 5a
+---------------------------------
+URI:POST Providers/{providerId}/Search-Patients
+Changes:
+added New property  "LastLoginDate" in SearchResults Object
+
+
+Added new ErrorCode to 
+("Patients/{patientId}/Resources/{resourceId}/Viewed")
+("Patients/{patientId}/Resources/{resourceId}/Recommend")
+ HTTP Status = 400 - {Code = 4221, Message = Resource not related to group}
+
+
+ Sprint 6a
+-------------------------------------------
+URI:POST Reminders
+
+Added new error codes :
+ {Status = 400, Code = 4231, Message = Invalid or missing parameters : ResourceId} ,
+ {Status = 404, Code = 4218, Message = Resource not found with the given details}
+
+ Added new property to ReminderCommandModel :
+  1)ResourceId (This is required only when reminder type is resource)
+
+ Old ReminderCommandModel:
+ {
+  "PatientId": 1,
+  "Name": "sample string 2",
+  "Description": "sample string 3",
+  "ReminderTypeId": 4,
+  "DeliveryDate": "2014-12-16T15:17:48.5746352+05:30",
+  "DueDate": "2014-12-16T15:17:48.5756352+05:30",
+  "IsImportant": true
+}
+
+New ReminderCommandModel:
+ {
+  "PatientId": 1,
+  "Name": "sample string 2",
+  "Description": "sample string 3",
+  "ReminderTypeId": 4,
+  "DeliveryDate": "2014-12-16T15:17:48.5746352+05:30",
+  "DueDate": "2014-12-16T15:17:48.5756352+05:30",
+  "IsImportant": true,
+  "ResourceId": 7
+}
+
+ Added new property to ReminderViewModel:
+ 1)ResourceId (only it is sent if reminder type is resource)
+
+ Old ReminderViewModel:
+ {
+  "Status": 1,
+  "Code": 2,
+  "Message": "sample string 3",
+  "Data": {
+    "ReminderId": 1,
+    "PatientId": 2,
+    "Name": "sample string 3",
+    "Description": "sample string 4",
+    "IsAcknowledged": true,
+    "ReminderTypeId": 6,
+    "DueDate": "2014-12-16T15:17:49.0266352+05:30",
+    "DeliveryDate": "2014-12-16T15:17:49.0266352+05:30",
+    "CreatedOn": "2014-12-16T15:17:49.0266352+05:30",
+    "UpdatedOn": "2014-12-16T15:17:49.0266352+05:30",
+    "IsImportant": true
+  }
+}
+
+New ReminderViewModel:
+ {
+  "Status": 1,
+  "Code": 2,
+  "Message": "sample string 3",
+  "Data": {
+    "ReminderId": 1,
+    "PatientId": 2,
+    "Name": "sample string 3",
+    "Description": "sample string 4",
+    "IsAcknowledged": true,
+    "ReminderTypeId": 6,
+    "DueDate": "2014-12-16T15:17:49.0266352+05:30",
+    "DeliveryDate": "2014-12-16T15:17:49.0266352+05:30",
+    "CreatedOn": "2014-12-16T15:17:49.0266352+05:30",
+    "UpdatedOn": "2014-12-16T15:17:49.0266352+05:30",
+    "IsImportant": true,
+	"ResourceId": 12
+  }
+}
+
+
+
+
+In ResourceSearchInfo
+Added IsCustomResource,IsRemindersAvailable
+Modified  ---- isRecommended-- IsRecommended,isViewed -- IsViewed
+
+In ADAuthentication:
+Removed "Domain" Property from ActiveDirectoryQueryModel 
+
+---Recurring reminders 
+POST Reminders/RecurringReminders :
+Added new error code :
+
+HTTP Status = 403 - {Code = 4233, Message = No Reminders available within given period} 
+
+
+---------------------------------------------------------Sprint-6b------------------------------------------------------------------
+---Recurring reminders 
+POST Reminders/RecurringReminders
+
+Added new property in RecurringReminderCommandModel : 
+IsImportant
+
+Old RecurringReminderCommandModel:
+{
+  "PatientId": 1,
+  "Name": "sample string 2",
+  "Description": "sample string 3",
+  "ReminderTypeId": 4,
+  "RecurrenceType": "sample string 5",
+  "StartDate": "2014-12-18T16:51:36.9455596+05:30",
+  "EndDate": "2014-12-18T16:51:36.9455596+05:30",
+  "Weekdays": "sample string 8",
+  "MonthlyDeliveryDay": 9
+}
+
+New RecurringReminderCommandModel:
+{
+  "PatientId": 1,
+  "Name": "sample string 2",
+  "Description": "sample string 3",
+  "ReminderTypeId": 4,
+  "RecurrenceType": "sample string 5",
+  "StartDate": "2014-12-18T16:51:36.9455596+05:30",
+  "EndDate": "2014-12-18T16:51:36.9455596+05:30",
+  "Weekdays": "sample string 8",
+  "MonthlyDeliveryDay": 9,
+  "IsImportant": true
+}
